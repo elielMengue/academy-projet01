@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact</title>
+</head>
+<body>
+
+
+     <div class="container">
+                <h2 id="titre">Contact</h2>
+                <form action="http://localhost:2000/contact" method="post" class="form">
+                    <div class="inputBox">
+                        <input type="text" name="nom" id="nom" placeholder="enter your name">
+                    </div>
+                    
+                    <div class="inputBox">
+                        <input type="text" name="prenom" id="prenom" placeholder="enter your first-name">
+                    </div>
+                    
+                    <div class="inputBox">
+                         <input type="text" name="adresse" id="adresse" placeholder="enter your adresse">
+                     </div>
+                   
+                     <div class="inputBox">
+                             <input type="text" name="object" id="object" placeholder="enter your message object">
+                    </div>
+                   
+                    <textarea class="message" id="message"></textarea> 
+
+                    <input type="submit" value="envoyer" class="bouton" id="btn">
+                </form>
+     </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
